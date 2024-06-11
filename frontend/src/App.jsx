@@ -1,7 +1,13 @@
+import Navbar from "./Components/Navbar";
+import Banner from "./Components/Banner";
+import Footer from "./Components/Footer";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <Navbar/>
+      <Banner/>
+      <Footer/>
+    </div>
   )
 }
